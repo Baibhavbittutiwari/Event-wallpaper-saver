@@ -12,7 +12,7 @@ The Event Wallpaper script is a Python application designed to set the desktop w
 ## File Structure
 The script consists of the following files:
 - **event_wallpaper.py**: The main Python script containing the EventWallpaper class and the main function.
-- **All_events.csv**: A CSV file containing the list of events organized by date.
+- **All_events.csv**: A CSV file containing the events organized by date.
 
 ## Dependencies
 The script requires the following Python libraries:
@@ -23,13 +23,13 @@ The script requires the following Python libraries:
 - `datetime`: Module for working with dates and times.
 
 ## Usage
-1. **Setup**: Ensure that the required Python libraries are installed. Optionally, obtain an API key from Unsplash .
-2. **CSV File Preparation**: Populate the `All_events.csv` file with events organized by date. Each row contain the date of the event and a description of the event.
+1. **Setup**: Ensure the required Python libraries are installed. Optionally, obtain an API key from Unsplash.
+2. **CSV File Preparation**: Populate the `All_events.csv` file with events organized by date. Each row contains the date of the event and a description of the event.
 3. **Execution**: Run the `event_wallpaper.py` script. Follow the prompts to the Unsplash API client ID when prompted.
 4. **Desktop Wallpaper Update**: The script will fetch the event for the current date, search for related images on Unsplash, download the image, and set it as the desktop wallpaper.
 
 ## Notes
-- Ensure that the CSV file remains well-formatted with proper column headers and data integrity to avoid issues with data processing and integration.
+- Ensure that the CSV file remains well-formatted with proper column headers and data integrity to avoid data processing and integration issues.
 - Backup the CSV file regularly to prevent data loss in case of accidental deletion or corruption.
 
 ## Future Improvements
@@ -38,10 +38,7 @@ The script requires the following Python libraries:
 - Enhance user interaction by providing options for customizing wallpaper settings, such as image resolution and display mode.
 
 ## Author
-This script was developed by [Your Name]. Feel free to contribute to its improvement by submitting pull requests or reporting issues on GitHub.
-
-## License
-This project is licensed under the [License Name] License. See the LICENSE file for details.
+This script was developed by Baibhav Bittu Tiwari. Feel free to contribute to its improvement by submitting pull requests or reporting issues on GitHub.
 
 ## Acknowledgments
 - Special thanks to the developers of the Python libraries used in this script for their valuable contributions.
